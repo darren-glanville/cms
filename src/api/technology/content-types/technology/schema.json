@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technologies",
+  "info": {
+    "singularName": "technology",
+    "pluralName": "technologies",
+    "displayName": "Technology"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Colour": {
+      "type": "enumeration",
+      "enum": [
+        "Black",
+        "Gray",
+        "Red",
+        "Orange",
+        "Yellow",
+        "Green",
+        "Teal",
+        "Blue",
+        "Cyan",
+        "Purple",
+        "Pink"
+      ],
+      "required": true
+    }
+  }
+}
